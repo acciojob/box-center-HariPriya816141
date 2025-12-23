@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+.box{
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	color: purple;
+	background-color: lightblue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 20px;
+	font: arial, sans-serif;
+}
